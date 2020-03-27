@@ -112,19 +112,11 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 
-### 17. Finally, we will grant the SPN from module 4, the ingestor role.  For this, we will need the Application ID captured in module 4
+### 17. Finally, we will grant the SPN from module 4, the ingestor role.  For this, we will need the Application ID captured in [module 4](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/blob/master/hdi-standalone-nonesp/Module-04.md#5-a-service-principal-namespn-gets-created--make-a-note-of-the-applicationclient-id-and-tenant-id-we-will-need-this-in-the-kafkaconnect-module)
 ![CreateStorage17](images/05-adx-17.png)
 <br>
 <hr>
 <br>
-
-
-### 17. Search for "Storage Account"
-![CreateStorage17](images/05-adx-17.png)
-<br>
-<hr>
-<br>
-
 
 
 This concludes the module.<br>
