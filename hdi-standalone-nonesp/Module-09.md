@@ -201,6 +201,11 @@ vi /usr/hdp/current/kafka-broker/config/connect-standalone.properties
 
 Modify the above to the below<br>
 
+```
+key.converter=org.apache.kafka.connect.storage.StringConverter
+value.converter=org.apache.kafka.connect.storage.StringConverter
+```
+
 ![CreateHDI01](images/06-kck-12.png)
 <br>
 <hr>
@@ -213,12 +218,32 @@ Modify the above to the below<br>
 
 Modify the above to the below<br>
 
+```
+plugin.path=/usr/hdp/current/kafka-broker/libs/,/usr/share/java
+```
+
 ![CreateHDI01](images/06-kck-14.png)
 <br>
 <hr>
 <br>
 
 ### 10. Create the connect-kusto-sink.properties file with your Kafka topic, KafkaConnect conf, ADX conf
+
+a) Revisit the portal, your ADX cluster instance for the ingestion URI
+
+![CreateHDI01](images/06-kck-16.png)
+<br>
+<hr>
+<br>
+
+b) Revisit the details of your service principal from here
+
+We will need-
+- Tenant ID
+- SPN Application ID
+- SPN Secret Access Key
+
+Once you have the details - start the editing...
 
 ```
 vi /usr/hdp/current/kafka-broker/config/connect-kusto-sink.properties
