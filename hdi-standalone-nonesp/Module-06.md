@@ -16,17 +16,31 @@ This module covers provisioning a HDInsight cluster.  Navigate to your resource 
 <hr>
 <br>
 
-### 3. Enter details, click on cluster type
+### 3. Enter details, click on cluster type, select Kafka
 ![CreateHDI03](images/02-hdi-02a.png)
 <br>
 <hr>
 <br>
 
-### 4. Select Kafka
+### 4. Enter credentials
 ![CreateHDI04](images/02-hdi-02b.png)
 <br>
 <hr>
 <br>
+
+### 5. 
+![CreateHDI05](images/02-hdi-03.png)
+<br>
+<hr>
+<br>
+
+### 5. 
+![CreateHDI05](images/02-hdi-04.png)
+<br>
+<hr>
+<br>
+
+
 
 ### 5. 
 ![CreateHDI05](images/02-hdi-05.png)
