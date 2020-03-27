@@ -42,19 +42,19 @@ Navigate to your resource group, and click on "Add" and follow the steps below.<
 <hr>
 <br>
 
-### 7. Once the service is provisioned, click on it in your resource grouop, we will create containers
+### 7. Once the service is provisioned, click on it in your resource group, we will create containers
 ![CreateStorage08](images/03-storage-08.png)
 <br>
 <hr>
 <br>
 
-### 9. Search for "Virtual Network", and click "create"
+### 9. Click on "Conatiners"
 ![CreateStorage09](images/03-storage-09.png)
 <br>
 <hr>
 <br>
 
-### 10. Search for "Virtual Network", and click "create"
+### 10. Click on "Add"
 ![CreateStorage10](images/03-storage-10.png)
 <br>
 <hr>
