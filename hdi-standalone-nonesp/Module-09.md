@@ -173,10 +173,49 @@ The connect-standalone.properties file, we will edit this.
 
 ### 9. Edit the connect-standalone.properties
 
+1.  You will need your broker list from [this step](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/blob/master/hdi-standalone-nonesp/Module-06.md#17-make-a-note-of-broker-ips-with-port-number-of-9092)
+<br>
+2.  We will edit the properties file as follows:
+- Update the broker list with your brokerPrivateIP:port list
+- Update the key.converter and value.converter
+- Uncomment and update the plugin path to /usr/hdp/current/kafka-broker/libs/,/usr/share/java
 
+```
+vi /usr/hdp/current/kafka-broker/config/connect-standalone.properties
+```
 
+![CreateHDI01](images/06-kck-09.png)
+<br>
+<hr>
+<br>
 
-### 9. Create the connect-kusto-sink.properties file with your Kafka topic, KafkaConnect conf, ADX conf
+![CreateHDI01](images/06-kck-10.png)
+<br>
+<hr>
+<br>
+
+![CreateHDI01](images/06-kck-11.png)
+<br>
+<hr>
+<br>
+
+![CreateHDI01](images/06-kck-12.png)
+<br>
+<hr>
+<br>
+
+![CreateHDI01](images/06-kck-13.png)
+<br>
+<hr>
+<br>
+
+![CreateHDI01](images/06-kck-14.png)
+<br>
+<hr>
+<br>
+
+### 10. Create the connect-kusto-sink.properties file with your Kafka topic, KafkaConnect conf, ADX conf
+
 ```
 vi /usr/hdp/current/kafka-broker/config/connect-kusto-sink.properties
 ```
