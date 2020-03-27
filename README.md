@@ -1,4 +1,4 @@
-# KafkaConnect sink for Azure Data Explorer
+# KafkaConnect sink for Azure Data Explorer - Hands on Lab
 
 ## About
 The focus of this hands-on-lab is to demonstrate how to use the KafkaConnect sink in a standalone more, on HDInsight Kafka to sink from Kafka to Azure Data Explorer (ADX).  The lab is fully "scripted" - there are detailed, step by step and comprehensive instructions and is intended to demonstrate the integration. 
