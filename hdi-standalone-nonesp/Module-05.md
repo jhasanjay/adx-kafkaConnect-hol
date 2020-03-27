@@ -92,8 +92,14 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 
-### 14. Search for "Storage Account"
-![CreateStorage14](images/05-adx-15.png)
+### 15. Click on the database "crimes_db"; Then enter the table DDL below and click on the run button.
+
+```
+// Create table
+.create table ['crimes_curated_kafka']  (['case_id']:int, ['case_nbr']:string, ['case_dt_tm']:datetime, ['block']:string, ['iucr']:string, ['primary_type']:string, ['description']:string, ['location_description']:string, ['arrest_made']:bool, ['was_domestic']:bool, ['beat']:string, ['district']:string, ['ward']:int, ['community_area']:int, ['fbi_code']:string, ['x_coordinate']:int, ['y_coordinate']:int, ['case_year']:int, ['updated_dt']:datetime, ['latitude']:real, ['longitude']:real, ['location_coords']:string, ['case_timestamp']:datetime, ['case_month']:int, ['case_day_of_month']:int, ['case_hour']:int, ['case_day_of_week_nbr']:int, ['case_day_of_week_name']:string)
+```
+
+![CreateStorage15](images/05-adx-15.png)
 <br>
 <hr>
 <br>
