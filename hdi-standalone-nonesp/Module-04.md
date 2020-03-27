@@ -2,7 +2,7 @@
 
 # About
 
-This module covers provisioning an Azure Active Directory (AAD) Service Principal (SPN).  We will grant this SPN, the "ingestor" role in ADX, adn leverage the same to sink to ADX from Kafka  <br>
+This module covers provisioning an Azure Active Directory (AAD) Service Principal (SPN).  We will grant this SPN, the "ingestor" role in ADX, in the next module, and leverage the same to sink to ADX from Kafka in the KafkaConnect module.<br>
 
 Navigate to portal.azure.com on your browser and follow the steps below:<br>
 
