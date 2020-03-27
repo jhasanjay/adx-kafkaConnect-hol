@@ -2,8 +2,36 @@
 
 # About
 
-This module covers downloading and configuring KafkaConnect for ADX and launching the service. 
+This module covers downloading and configuring KafkaConnect for ADX and launching the service 
 <br>
+
+We will be setting some configuration for our KafkaConnect sink to Kusto<br>
+Here are some notes about it, it is helpful to understand these as some of them are knobs for performance tuning<br>
+
+**name**<br>
+Unique name for the connector. Attempting to register again with the same name will fail<br><br>
+
+**connector.class**<br>
+The Java class for the connector
+
+**tasks.max**<br>
+The maximum number of tasks that should be created for this connector. The connector may create fewer tasks if it cannot achieve this level of parallelism<br>
+
+**bootstrap.servers**<br>
+A list of host/port pairs to use for establishing the initial connection to the Kafka cluster<br>
+
+**key.converter**<br>
+Converter class for key Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors<br>
+
+**value.converter**<br>
+Converter class for value Connect data. This controls the format of the data that will be written to Kafka for source connectors or read from Kafka for sink connectors<br>
+
+**flush.size**<br>
+Number of records written to store before invoking file commits<br>
+
+**flush.interval.ms**<br>
+Interval at which to try committing offsets for tasks<br><br>
+
 
 ### 1. SSH to the edge node ands switch to root
 
@@ -126,6 +154,14 @@ ls -al /usr/share/java/ | grep kusto
 <br>
 <hr>
 <br>
+
+### 8. Edit the standalone properties file
+
+```
+/usr/hdp/current/kafka-broker/config/
+```
+
+
 
 
 This concludes the module.<br>
