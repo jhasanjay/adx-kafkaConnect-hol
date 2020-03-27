@@ -98,11 +98,16 @@ chmod +x kafka-connect-kusto-sink-0.3.2-uber.jar
 cp kafka-connect-kusto-sink-0.3.2-uber.jar /usr/hdp/current/kafka-broker/libs/
 ```
 
+![CreateHDI01](images/06-kck-06a.png)
+<br>
+<hr>
+<br>
+
 ```
 ls -al /usr/hdp/current/kafka-broker/libs/ | grep kusto
 ```
 
-![CreateHDI01](images/06-kck-06a.png)
+![CreateHDI01](images/06-kck-06b.png)
 <br>
 <hr>
 <br>
@@ -117,7 +122,7 @@ cp kafka-connect-kusto-sink-0.3.2-uber.jar /usr/share/java/
 ls -al /usr/share/java/ | grep kusto
 ```
 
-![CreateHDI01](images/06-kck-06b.png)
+![CreateHDI01](images/06-kck-7.png)
 <br>
 <hr>
 <br>
