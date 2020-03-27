@@ -1,5 +1,5 @@
 # Azure Data Explorer - Kafka Integration Hands On Lab
-## With HDI Kafka, and standalone KafkaConnect on an edge node
+## With HDInsight 3.6 Kafka, and standalone KafkaConnect on an edge node
 
 ## 1. About
 The focus of this hands-on-lab is to demonstrate how to configure KafkaConnect sink in a standalone mode, on Azure HDInsight Kafka PaaS, to sink to Azure Data Explorer (ADX).  The lab is fully "scripted" (its not a hack, no bing/googling required) - there are detailed, step by step, and comprehensive instructions and is intended to demonstrate the integration. It includes four distributed PaaS offerings - Azure storage v2, HDInsight Kafka and Azure Data Explorer, and Azure Databricks.
