@@ -11,58 +11,58 @@ Navigate to ythe URL https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-
 <hr>
 <br>
 
-### 2. Click create
-![CreateHDI02](images/02-hdi-02.png)
+### 2. Enter details
+![CreateHDI02](images/02-hdi-30.png)
 <br>
 <hr>
 <br>
 
-### 3. Enter details, click on cluster type, select Kafka
-![CreateHDI03](images/02-hdi-02a.png)
+### 3. 
+![CreateHDI03](images/02-hdi-31.png)
 <br>
 <hr>
 <br>
 
-### 4. Enter credentials
-![CreateHDI04](images/02-hdi-02b.png)
+### 4. 
+![CreateHDI04](images/02-hdi-32.png)
 <br>
 <hr>
 <br>
 
-### 5. Select "new" storage
-![CreateHDI05](images/02-hdi-03.png)
+### 5. 
+![CreateHDI05](images/02-hdi-33.png)
 <br>
 <hr>
 <br>
 
-### 6. Enter details as depicted
-![CreateHDI05](images/02-hdi-04.png)
+### 6. 
+![CreateHDI05](images/02-hdi-34.png)
 <br>
 <hr>
 <br>
 
 
 
-### 7. Select TLS 1.2 in the networking tab 
-![CreateHDI05](images/02-hdi-05.png)
+### 7. 
+![CreateHDI05](images/02-hdi-35.png)
 <br>
 <hr>
 <br>
 
-### 8. Select virtual network and kafka subnet 
-![CreateHDI06](images/02-hdi-06.png)
+### 8. 
+![CreateHDI06](images/02-hdi-36.png)
 <br>
 <hr>
 <br>
 
-### 9. Leave default, except have 3 broker/worker nodes
-![CreateHDI07](images/02-hdi-07.png)
+### 9. 
+![CreateHDI07](images/02-hdi-37.png)
 <br>
 <hr>
 <br>
 
 ### 10. Click create
-![CreateHDI08](images/02-hdi-08.png)
+![CreateHDI08](images/02-hdi-38.png)
 <br>
 <hr>
 <br>
