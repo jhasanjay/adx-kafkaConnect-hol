@@ -17,25 +17,25 @@ Navigate to ythe URL https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-
 <hr>
 <br>
 
-### 3. 
+### 3. Agree to terms and click on purchase
 ![CreateHDI03](images/02-hdi-31.png)
 <br>
 <hr>
 <br>
 
-### 4. 
+### 4. Monitor the provisioning to completion
 ![CreateHDI04](images/02-hdi-32.png)
 <br>
 <hr>
 <br>
 
-### 5. 
+### 5. When it completes, it should look like this
 ![CreateHDI05](images/02-hdi-33.png)
 <br>
 <hr>
 <br>
 
-### 6. 
+### 6. Switch back to Ambari, click on hosts
 ![CreateHDI05](images/02-hdi-34.png)
 <br>
 <hr>
@@ -43,32 +43,32 @@ Navigate to ythe URL https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-
 
 
 
-### 7. 
+### 7. Make a note of the edge node private IP address.  The edge node name starts with "e"
 ![CreateHDI05](images/02-hdi-35.png)
 <br>
 <hr>
 <br>
 
-### 8. 
+### 8. On the left navigation panel, click on SSH, not cluster size 
 ![CreateHDI06](images/02-hdi-36.png)
 <br>
 <hr>
 <br>
 
-### 9. 
+### 9. Copy the SSH command
 ![CreateHDI07](images/02-hdi-37.png)
 <br>
 <hr>
 <br>
 
-### 10. Click create
+### 10. Using Putty or your Linux command line, or Azure cloud bash shell, SSH to the the cluster head node
 ![CreateHDI08](images/02-hdi-38.png)
 <br>
 <hr>
 <br>
 
 ### 11. You should see this icon for HDInsight in your resource group, click on it 
-![CreateHDI09](images/02-hdi-09.png)
+![CreateHDI09](images/02-hdi-39.png)
 <br>
 <hr>
 <br>
