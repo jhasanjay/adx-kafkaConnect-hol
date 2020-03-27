@@ -52,25 +52,25 @@ Navigate to your resource group<br>
 <br>
 
 ### 2.2. Click on resource group
-![Createvnet](images/01-vnet-01.png)
+![Createvnet2](images/01-vnet-02.png)
 <br>
 <hr>
 <br>
 
 ### 2.3. Click on resource group
-![Createvnet](images/01-vnet-01.png)
+![Createvnet3](images/01-vnet-03.png)
 <br>
 <hr>
 <br>
 
 ### 2.4. Click on resource group
-![Createvnet](images/01-vnet-01.png)
+![Createvnet4](images/01-vnet-04.png)
 <br>
 <hr>
 <br>
 
 ### 2.5. Click on resource group
-![Createvnet](images/01-vnet-01.png)
+![Createvnet5](images/01-vnet-05.png)
 <br>
 <hr>
 <br>
