@@ -61,7 +61,8 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 25. Perform the transformations done in the Spark notebook in #18, in ADX
 26. Create a new dashboard based off of the raw data that you curated in ADX
 
-
+### Lets get started
+[Module 1.  Provision common resources] 
 
 
 
