@@ -64,7 +64,7 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 ### Lets get started
 [Module 1.  Provision a resource group](Module-01.md) <br>
 [Module 2.  Provision a virtual network and subnets](Module-02.md) <br>
-
+[Module 3.  Provision a storage account v2 and containers](Module-03.md) <br>
 
 
 
