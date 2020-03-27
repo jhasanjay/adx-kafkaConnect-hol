@@ -48,25 +48,25 @@ Navigate to your resource group, and click on "Add" and follow the steps below.<
 <hr>
 <br>
 
-### 9. Click on "Conatiners"
+### 8. Click on "Containers"
 ![CreateStorage09](images/03-storage-09.png)
 <br>
 <hr>
 <br>
 
-### 10. Click on "Add"
+### 9. Click on "+Container"
 ![CreateStorage10](images/03-storage-10.png)
 <br>
 <hr>
 <br>
 
-### 11. Search for "Virtual Network", and click "create"
+### 10. Create a container called "crimes-curated"
 ![CreateStorage11](images/03-storage-11.png)
 <br>
 <hr>
 <br>
 
-### 12. Search for "Virtual Network", and click "create"
+### 11. Create additional containers as described below, without typos
 ![CreateStorage12](images/03-storage-12.png)
 <br>
 <hr>
