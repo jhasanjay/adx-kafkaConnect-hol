@@ -22,43 +22,43 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <hr>
 <br>
 
-### 4. Search for "Storage Account"
+### 4. Click on the "On" radio button for streaming ingestion
 ![CreateStorage03](images/05-adx-03.png)
 <br>
 <hr>
 <br>
 
-### 4. Search for "Storage Account"
+### 5. Leave defaults
 ![CreateStorage04](images/05-adx-04.png)
 <br>
 <hr>
 <br>
 
-### 5. Search for "Storage Account"
+### 6. Leave defaults
 ![CreateStorage05](images/05-adx-05.png)
 <br>
 <hr>
 <br>
 
-### 6. Search for "Storage Account"
+### 7. Leave defaults
 ![CreateStorage06](images/05-adx-06.png)
 <br>
 <hr>
 <br>
 
-### 7. Search for "Storage Account"
+### 8. Validate and click on "Create"
 ![CreateStorage07](images/05-adx-07.png)
 <br>
 <hr>
 <br>
 
-### 8. Search for "Storage Account"
+### 9. Once the cluster is created in your resource group, click on it, to add a database - the link ison the left vertical navigation bar
 ![CreateStorage08](images/05-adx-08.png)
 <br>
 <hr>
 <br>
 
-### 9. Search for "Storage Account"
+### 10. Create a database called "crimes_db"
 ![CreateStorage09](images/05-adx-09.png)
 <br>
 <hr>
