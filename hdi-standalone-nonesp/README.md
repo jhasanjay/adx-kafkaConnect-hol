@@ -14,9 +14,8 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 - Focus - there are a lot of steps, that need to be completed in sequential order and one step missed could be problematic for dependent steps
 - Prior knowledge of Kafka, Spark, ADX and Azure, and the services in scope is not mandatory, but VERY helpful and may reduce the lab execution time to 2 hours
 
-## 3. Solution overview
-
-
+## 3. Solution pictorial overview
+![Solution](images/solution-architecture.png)
 
 ## What's covered in the lab
 
