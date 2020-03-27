@@ -35,24 +35,34 @@ Enter the cluster name at the prompt, and then echo the variable to ensure it ha
 <hr>
 <br>
 
-### 4. Monitor the provisioning to completion
+### 4. Capture the zookeeper server FQDN:port CSV list into a variable, we need this for creating a Kafka topic 
+
+```
+export KAFKAZKHOSTS=`curl -sS -u admin -G https://$CLUSTERNAME.azurehdinsight.net/api/v1/clusters/$CLUSTERNAME/services/ZOOKEEPER/components/ZOOKEEPER_SERVER | jq -r '["\(.host_components[].HostRoles.host_name):2181"] | join(",")' | cut -d',' -f1,2`
+```
+
+Validate it:
+
+```
+export KAFKAZKHOSTS
+```
+
 ![CreateHDI04](images/02-hdi-45.png)
 <br>
 <hr>
 <br>
 
-### 5. When it completes, it should look like this
+### 5. Create a Kafka topic called crimes_topic
 ![CreateHDI05](images/02-hdi-46.png)
 <br>
 <hr>
 <br>
 
-### 6. Switch back to Ambari, click on hosts
+### 6. List the topics to ensure it was created
 ![CreateHDI05](images/02-hdi-47.png)
 <br>
 <hr>
 <br>
-
 
 
 This concludes the module.<br>
