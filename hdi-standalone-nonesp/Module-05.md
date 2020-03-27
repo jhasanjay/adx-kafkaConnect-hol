@@ -52,19 +52,25 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <hr>
 <br>
 
-### 9. Once the cluster is created in your resource group, click on it, to add a database - the link ison the left vertical navigation bar
+### 9. Once the cluster is created in your resource group, click on it, and then on "database" - the link is on the left vertical navigation bar.  
+![CreateStorage08](images/05-adx-10.png)
+<br>
+<hr>
+<br>
+
+### 10. Click on "add database".
 ![CreateStorage08](images/05-adx-08.png)
 <br>
 <hr>
 <br>
 
-### 10. Create a database called "crimes_db"
+### 11. Create a database called "crimes_db"
 ![CreateStorage09](images/05-adx-09.png)
 <br>
 <hr>
 <br>
 
-### 10. Search for "Storage Account"
+### 11. Search for "Storage Account"
 ![CreateStorage10](images/05-adx-10.png)
 <br>
 <hr>
