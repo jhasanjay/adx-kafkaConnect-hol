@@ -1,5 +1,5 @@
 
-# 1.  About
+# About
 
 This module covers:
 1.  Provisioning of an Azure resource group
@@ -12,6 +12,21 @@ Go to portal.azure.com, login and follow the steps below to create a resource gr
 <br>
 
 ![CreateRG1](images/01-rg-01.png)
+<br>
+<hr>
+<br>
+
+![CreateRG2](images/01-rg-02.png)
+<br>
+<hr>
+<br>
+
+![CreateRG3](images/01-rg-03.png)
+<br>
+<hr>
+<br>
+
+![CreateRG4](images/01-rg-04.png)
 <br>
 <hr>
 <br>
