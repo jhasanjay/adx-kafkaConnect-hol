@@ -282,7 +282,11 @@ Here is a sample:
 <hr>
 <br>
 
+### 11. Start the KafkaConnect service
 
+```
+/usr/hdp/current/kafka-broker/bin/connect-standalone.sh /usr/hdp/current/kafka-broker/config/connect-standalone.properties /usr/hdp/current/kafka-broker/config/connect-kusto-sink.properties
+```
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
