@@ -2,39 +2,37 @@
 
 # About
 
-This module covers provisioning of a virtual network with subnets
+This module covers provisioning of a virtual network with subnets.  <br>
+Navigate to your resource group, and click on "Add" and follow the steps below.<br>
 
-
-## 1.  Provision a virtual network with subnets
-
-Navigate to your resource group<br>
-
-### 1.1. Click on resource group
+### 1.1. Search for "Virtual Network", and click "create"
 ![Createvnet](images/01-vnet-01.png)
 <br>
 <hr>
 <br>
 
-### 1.2. Click on resource group
+### 1.2. Enter details, be sure to pick your resource group and the right region
 ![Createvnet2](images/01-vnet-02.png)
 <br>
 <hr>
 <br>
 
-### 1.3. Click on resource group
+### 1.3. Leave your Ipv4 address space as is, or modify
 ![Createvnet3](images/01-vnet-03.png)
 <br>
 <hr>
 <br>
 
-### 1.4. Click on resource group
+### 1.4. Create a subnet called kafka-snet, and click on "Add"
 ![Createvnet4](images/01-vnet-04.png)
 <br>
 <hr>
 <br>
 
-### 1.5. Click on resource group
+### 1.5. Navigate back to your resource group.
 ![Createvnet5](images/01-vnet-05.png)
 <br>
 <hr>
 <br>
+
+This concludes the module.
