@@ -35,4 +35,5 @@ Navigate to your resource group, and click on "Add" and follow the steps below.<
 <hr>
 <br>
 
-This concludes the module.
+This concludes the module.<br>
+[Return to menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
