@@ -25,47 +25,42 @@ Navigate to portal.azure.com on your browser and follow the steps below:<br>
 <br>
 
 
-### 4. Select Locally Redundant Storage
+### 4. Enter details as described
 ![CreateStorage05](images/01-spn-04.png)
 <br>
 <hr>
 <br>
 
-### 5. In the advanced tab, leave defaults
+### 5. A service principal name/SPN gets created.  Make a note of the application/client ID and tenant ID; We will need this in the KafkaConnect module
 ![CreateStorage06](images/01-spn-05.png)
 <br>
 <hr>
 <br>
 
-### 6. Validate and click "create"
+### 6. Click on certificates and secrets; We will create a secret for the SPN
 ![CreateStorage07](images/01-spn-06.png)
 <br>
 <hr>
 <br>
 
-### 7. Once the service is provisioned, click on it in your resource group, we will create containers
+### 7. Click on new secret
 ![CreateStorage08](images/01-spn-07.png)
 <br>
 <hr>
 <br>
 
-### 8. Click on "Containers"
+### 8. Enter details and "add"
 ![CreateStorage09](images/01-spn-08.png)
 <br>
 <hr>
 <br>
 
-### 9. Click on "Containers"
+### 9. Make a note of the secret, it wont be available after.  We will need this in the KafkaConnect module
 ![CreateStorage09](images/01-spn-09.png)
 <br>
 <hr>
 <br>
 
-### 9. Click on "+Container"
-![CreateStorage10](images/03-storage-10.png)
-<br>
-<hr>
-<br>
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
