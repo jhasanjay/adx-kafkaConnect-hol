@@ -156,8 +156,27 @@ ls -al /usr/share/java/ | grep kusto
 <hr>
 <br>
 
-### 8. Edit the standalone properties file
+### 8. Navigate to the Kafka broker config directory
 
+
+```
+cd /usr/hdp/current/kafka-broker/config/
+```
+
+![CreateHDI01](images/06-kck-08.png)
+<br>
+<hr>
+<br>
+
+Of importance is - 
+The connect-standalone.properties file, we will edit this.
+
+### 9. Edit the connect-standalone.properties
+
+
+
+
+### 9. Create the connect-kusto-sink.properties file with your Kafka topic, KafkaConnect conf, ADX conf
 ```
 vi /usr/hdp/current/kafka-broker/config/connect-kusto-sink.properties
 ```
