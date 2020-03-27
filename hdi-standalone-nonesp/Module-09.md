@@ -199,6 +199,8 @@ vi /usr/hdp/current/kafka-broker/config/connect-standalone.properties
 <hr>
 <br>
 
+Modify the above to the below<br>
+
 ![CreateHDI01](images/06-kck-12.png)
 <br>
 <hr>
@@ -208,6 +210,8 @@ vi /usr/hdp/current/kafka-broker/config/connect-standalone.properties
 <br>
 <hr>
 <br>
+
+Modify the above to the below<br>
 
 ![CreateHDI01](images/06-kck-14.png)
 <br>
