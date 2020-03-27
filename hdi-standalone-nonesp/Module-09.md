@@ -3,14 +3,41 @@
 # About
 
 This module covers downloading and configuring KafkaConnect for ADX and launching the service. 
-In you SSH terminal where you are logged in to the edge node
+<br>
 
-### 1. Switch to root with `sudo su -`
-![01](images/01-kafkaconnect-01.png)
+### 1. SSH to the edge node ands switch to root
+
+![CreateHDI01](images/02-hdi-41.png)
 <br>
 <hr>
 <br>
 
+![CreateHDI01](images/02-hdi-42.png)
+<br>
+<hr>
+<br>
+
+### 2. Install tree
+
+```
+apt-get install -y tree
+```
+
+![CreateHDI01](images/06-kck-01.png)
+<br>
+<hr>
+<br>
+
+### 3. Create directory path for KafkaConnect jar download
+
+```
+ mkdir -p opt/kafka-connect-kusto
+```
+
+![CreateHDI01](images/06-kck-02.png)
+<br>
+<hr>
+<br>
 
 
 This concludes the module.<br>
