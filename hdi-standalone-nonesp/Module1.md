@@ -45,7 +45,31 @@ Go to portal.azure.com, login and follow the steps below to create a resource gr
 
 Navigate to your resource group<br>
 
-### 1.1. Click on resource group
+### 2.1. Click on resource group
+![Createvnet](images/01-vnet-01.png)
+<br>
+<hr>
+<br>
+
+### 2.2. Click on resource group
+![Createvnet](images/01-vnet-01.png)
+<br>
+<hr>
+<br>
+
+### 2.3. Click on resource group
+![Createvnet](images/01-vnet-01.png)
+<br>
+<hr>
+<br>
+
+### 2.4. Click on resource group
+![Createvnet](images/01-vnet-01.png)
+<br>
+<hr>
+<br>
+
+### 2.5. Click on resource group
 ![Createvnet](images/01-vnet-01.png)
 <br>
 <hr>
