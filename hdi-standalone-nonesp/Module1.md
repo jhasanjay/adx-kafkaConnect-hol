@@ -36,7 +36,7 @@ Go to portal.azure.com, login and follow the steps below to create a resource gr
 <br>
 
 ## 1.5. The resource group should get created
-![CreateRG5](images/01-rg-05.png)
+![CreateRG5](images/01-rg-05a.png)
 <br>
 <hr>
 <br>
