@@ -5,37 +5,32 @@
 This module covers provisioning of a storage account v2 and containers needed for the lab.<br>
 Navigate to your resource group, and click on "Add" and follow the steps below.<br>
 
-### 1. Search for "Virtual Network", and click "create"
+### 1. Search for "Storage Account"
 ![CreateStorage01](images/03-storage-01.png)
 <br>
 <hr>
 <br>
 
-### 2. Search for "Virtual Network", and click "create"
+### 2. Click "create"
 ![CreateStorage02](images/03-storage-02.png)
 <br>
 <hr>
 <br>
 
-### 3. Search for "Virtual Network", and click "create"
+### 3. Enter details, be sure to select the right resource group and region
 ![CreateStorage03](images/03-storage-03.png)
 <br>
 <hr>
 <br>
 
-### 4. Search for "Virtual Network", and click "create"
-![CreateStorage04](images/03-storage-04.png)
-<br>
-<hr>
-<br>
 
-### 5. Search for "Virtual Network", and click "create"
+### 4. Select Locally Redundant Storage
 ![CreateStorage05](images/03-storage-05.png)
 <br>
 <hr>
 <br>
 
-### 6. Search for "Virtual Network", and click "create"
+### 6. In the networking tab, leave defaults
 ![CreateStorage06](images/03-storage-06.png)
 <br>
 <hr>
