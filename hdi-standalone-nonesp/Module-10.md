@@ -26,13 +26,13 @@ Navigate to portal.azure.com on your browser, to the resource grouop and follow 
 
 
 ### 4. You should see a Databricks workspace created
-![CreateStorage05](images/04-databricks-04)
+![CreateStorage05](images/04-databricks-04.png)
 <br>
 <hr>
 <br>
 
 ### 5. Click on the Databricks workspace icon
-![CreateStorage06](images/04-databricks-05)
+![CreateStorage06](images/04-databricks-05.png)
 <br>
 <hr>
 <br>
