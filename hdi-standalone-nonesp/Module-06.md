@@ -175,25 +175,25 @@ echo "advertised.listeners=PLAINTEXT://$IP_ADDRESS:9092" >> /usr/hdp/current/kaf
 <hr>
 <br>
 
-### 27. 
+### 27. Click on ok
 ![CreateHDI25](images/02-hdi-25.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 28. Click on restart to restart cluster after the conf changes
 ![CreateHDI26](images/02-hdi-26.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 29. You should see the restart
 ![CreateHDI27](images/02-hdi-27.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 30. And the cluster looking healthy
 ![CreateHDI28](images/02-hdi-28.png)
 <br>
 <hr>
