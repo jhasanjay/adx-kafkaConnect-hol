@@ -105,15 +105,15 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 
-### 15. Search for "Storage Account"
-![CreateStorage15](images/05-adx-15.png)
+### 16. Now lets create a table mapping
+![CreateStorage16](images/05-adx-16.png)
 <br>
 <hr>
 <br>
 
 
-### 16. Search for "Storage Account"
-![CreateStorage16](images/05-adx-16.png)
+### 17. Finally, we will grant the SPN from module 4, the ingestor role.  For this, we will need the Application ID captured in module 4
+![CreateStorage17](images/05-adx-17.png)
 <br>
 <hr>
 <br>
