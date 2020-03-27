@@ -1,24 +1,27 @@
 # KafkaConnect sink for Azure Data Explorer - Hands on Lab
 
-## About
-The focus of this hands-on-lab is to demonstrate how to use the KafkaConnect sink in a standalone more, on HDInsight Kafka to sink from Kafka to Azure Data Explorer (ADX).  The lab is fully "scripted" - there are detailed, step by step and comprehensive instructions and is intended to demonstrate the integration. 
+## 1. About
+The focus of this hands-on-lab is to demonstrate how to configure our KafkaConnect sink in a standalone mode, on our HDInsight Kafka PaaS, to sink from Kafka to Azure Data Explorer (ADX).  The lab is fully "scripted" (its not a hack) - there are detailed, step by step, and comprehensive instructions and is intended to demonstrate the integration. It includes four distributed PaaS offering - Azure storage v2, HDInsight Kafka and Azure Data Explorer, and Azure Databricks.
+<br>
+We will download the Chicago crimes public dataset for this exercise.
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
 ## Solution overview
 
 ## What's covered in the lab
 
-Common:
+### Common:
 1.  Provisioning an Azure resource group
 2.  Provisioning a virtual network with subnets 
 3.  Provisioning a storage account, and creating containers, and capturing storage account key for subsequent use
 4.  Creating an Azure Active Directory (AAD) Service Principal (SPN), creating a secret, capturing tenant ID, SPN app ID, SPN secret for subsequent use
 
-Azure Data Explorer:
+### Azure Data Explorer:
 5.  Provisioning an ADX cluster
 6.  Creating an ADX database, table and mapping reference
 7.  Granting the AAD SPN, "ingestor" RBAC to the table 
 
-HDInsight Kafka:
+### HDInsight Kafka:
 8.  Provisioning a HDInsight Kafka cluster
 8.  Provisioning an edge node on the Kafka cluster on which we will run KafkaConnect service
 9.  Creating a Kafka topic in HDInsight
@@ -28,7 +31,7 @@ HDInsight Kafka:
 13. Creating a kafka-connect-kusto.properties file with details about the sink (ADX conf)
 14. Launching the KafkaConnect service
 
-Azure Databricks:
+### Azure Databricks:
 15. Provisioning an Azure Databricks cluster
 16. Importing Spark scala code for the lab from git into your Databricks workspace
 16. Mounting blob storage on the cluster
@@ -37,16 +40,21 @@ Azure Databricks:
 19. Basic visualization in Spark (we will repeat this in Azure Data Explorer dashboard as well)
 20. Stream read the Chicago crimes dataset from the curated information zone, and publish it to Kafka
 
-Azure Data Explorer:
+### Azure Data Explorer:
 21. Validate receipt of data from Kafka
 22. Run some queries
 23. Launch ADX dashboard and repeat #19
 
-### Pre-requisites
+### Want a challenge?
+24. Author a Spark notebook to publish the raw data to Kafka, and from there sink to a new ADX table defined for the raw data
+25. Perform the transformations done in the Spark notebook in #18, in ADX
+26. Create a new dashboard based off of the raw data that you curated in ADX
+
+## Pre-requisites
 - An Azure subscription with about $200 in funds
 - About 8-10 hours of time
-- Some caffeine
-- Focus - there are a lot of steps, you miss one, things wont work
+- Maybe some caffeine and some music
+- Focus - there are a lot of steps, that need to be completed in sequential order and one step missed could be problematic for dependent steps
 
 
 
