@@ -56,7 +56,7 @@ Navigate to portal.azure.com on your browser and follow the steps below:<br>
 <br>
 
 ### 9. Make a note of the secret, it wont be available after.  We will need this in the KafkaConnect module
-![CreateStorage09](images/01-spn-09.png)
+![CreateStorage10](images/01-spn-09.png)
 <br>
 <hr>
 <br>
