@@ -78,5 +78,6 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 [Module 14.  Validate the publishing with Kafka console consumer in HDInsight](Module-14.md) <br>
 [Module 15.  Validate the ingestion in the ADX table](Module-14.md) <br>
 
-
+### Got feedback?
+Connect with me (Anagha Khanolkar, Microsoft) on LinkedIn and message me.
 
