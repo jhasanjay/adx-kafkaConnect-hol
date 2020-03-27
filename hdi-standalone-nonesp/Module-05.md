@@ -2,75 +2,118 @@
 
 # About
 
-This module covers provisioning a Azure Data Explorer<br>
+This module covers provisioning an Azure Data Explorer, creating database objects required for the lab and granting permissions.  <br>
 Navigate to your resource group, and click on "Add" and follow the steps below.<br>
 
 ### 1. Search for "Storage Account"
-![CreateStorage01](images/03-storage-01.png)
+![CreateStorage01](images/05-adx-01.png)
 <br>
 <hr>
 <br>
 
-### 2. Click "create"
-![CreateStorage02](images/03-storage-02.png)
+### 2. Search for "Storage Account"
+![CreateStorage02](images/05-adx-02.png)
 <br>
 <hr>
 <br>
 
-### 3. Enter details, be sure to select the right resource group and region
-![CreateStorage03](images/03-storage-03.png)
+### 3. Search for "Storage Account"
+![CreateStorage03](images/05-adx-03.png)
+<br>
+<hr>
+<br>
+
+### 4. Search for "Storage Account"
+![CreateStorage04](images/05-adx-04.png)
+<br>
+<hr>
+<br>
+
+### 5. Search for "Storage Account"
+![CreateStorage05](images/05-adx-05.png)
+<br>
+<hr>
+<br>
+
+### 6. Search for "Storage Account"
+![CreateStorage06](images/05-adx-06.png)
+<br>
+<hr>
+<br>
+
+### 7. Search for "Storage Account"
+![CreateStorage07](images/05-adx-07.png)
+<br>
+<hr>
+<br>
+
+### 8. Search for "Storage Account"
+![CreateStorage08](images/05-adx-08.png)
+<br>
+<hr>
+<br>
+
+### 9. Search for "Storage Account"
+![CreateStorage09](images/05-adx-09.png)
+<br>
+<hr>
+<br>
+
+### 10. Search for "Storage Account"
+![CreateStorage10](images/05-adx-10.png)
+<br>
+<hr>
+<br>
+
+### 11. Search for "Storage Account"
+![CreateStorage11](images/05-adx-11.png)
 <br>
 <hr>
 <br>
 
 
-### 4. Select Locally Redundant Storage
-![CreateStorage05](images/03-storage-05.png)
+### 12. Search for "Storage Account"
+![CreateStorage12](images/05-adx-12.png)
 <br>
 <hr>
 <br>
 
-### 5. In the advanced tab, leave defaults
-![CreateStorage06](images/03-storage-06.png)
+
+### 13. Search for "Storage Account"
+![CreateStorage13](images/05-adx-13.png)
 <br>
 <hr>
 <br>
 
-### 6. Validate and click "create"
-![CreateStorage07](images/03-storage-07.png)
+
+### 14. Search for "Storage Account"
+![CreateStorage14](images/05-adx-15.png)
 <br>
 <hr>
 <br>
 
-### 7. Once the service is provisioned, click on it in your resource group, we will create containers
-![CreateStorage08](images/03-storage-08.png)
+
+### 15. Search for "Storage Account"
+![CreateStorage15](images/05-adx-15.png)
 <br>
 <hr>
 <br>
 
-### 8. Click on "Containers"
-![CreateStorage09](images/03-storage-09.png)
+
+### 16. Search for "Storage Account"
+![CreateStorage16](images/05-adx-16.png)
 <br>
 <hr>
 <br>
 
-### 9. Click on "+Container"
-![CreateStorage10](images/03-storage-10.png)
+
+### 17. Search for "Storage Account"
+![CreateStorage17](images/05-adx-17.png)
 <br>
 <hr>
 <br>
 
-### 10. Create a container called "crimes-curated"
-![CreateStorage11](images/03-storage-11.png)
-<br>
-<hr>
-<br>
 
-### 11. Create additional containers as described below, without typos
-![CreateStorage12](images/03-storage-12.png)
-<br>
-<hr>
-<br>
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
