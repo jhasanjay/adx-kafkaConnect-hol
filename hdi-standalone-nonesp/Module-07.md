@@ -73,19 +73,17 @@ Navigate to ythe URL https://docs.microsoft.com/en-us/azure/hdinsight/hdinsight-
 <hr>
 <br>
 
-### 12. 
+### 12. Once logged in, SSH to the edge node with the IP you captured in the step 7; Use same password as SSH to head node 
 ![CreateHDI10](images/02-hdi-40.png)
 <br>
 <hr>
 <br>
 
-### 13. Click on Ambari home; Ambari is the cluster manager
+### 13. All is well if you are able to login
 ![CreateHDI11](images/02-hdi-41.png)
 <br>
 <hr>
 <br>
-
-
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
