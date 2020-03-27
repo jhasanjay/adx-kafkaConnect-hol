@@ -6,6 +6,7 @@ The following are instructional hands on labs for Kafka integration with Azure D
 
 ## Labs
 ### [1.  Standalone KafkaConnect on HDInsight](hdi-standalone-nonesp/README.md)
+### 2.  Distributed KafkaConnect on HDInsight
 
 ## Feedback
 Please share any feedback you have about the content and report any issues.
