@@ -6,10 +6,14 @@ The following are instructional hands on labs for Kafka integration with Azure D
 
 ## Labs
 ### 1.  Standalone KafkaConnect on HDInsight
-Public dataset: Chicago crimes<br>
+Public dataset: <br>
+Chicago crimes<br>
+
 Services: <br>
 - Azure Storage v2 (peristent store for the raw and curated data), 
 - Azure Databricks (download data, stream to Kafka), 
 - Azure HDInsight Kafka (not ESP), with edge node running KafkaConnect service
 - Azure Data Explorer as sink
+
+[Lab](hdi-standalone-nonesp/README.md)
 
