@@ -4,9 +4,14 @@ This module covers creating a Kafka topic that we will publish events to.
 Switch to your SSH terminal, where you logged into the edge node.
 
 
-### 1. SSH to the edge node
+### 1. SSH to the edge node ands switch to root
 
 ![CreateHDI01](images/02-hdi-41.png)
+<br>
+<hr>
+<br>
+
+![CreateHDI01](images/02-hdi-42.png)
 <br>
 <hr>
 <br>
@@ -18,10 +23,7 @@ read -p "Enter the Kafka on HDInsight cluster name: " CLUSTERNAME
 Enter the cluster name at the prompt, and then echo the variable to ensure it has the right value.
 
 
-![CreateHDI01](images/02-hdi-42.png)
-<br>
-<hr>
-<br>
+
 
 ### 2. Enter details
 ![CreateHDI02](images/02-hdi-43.png)
