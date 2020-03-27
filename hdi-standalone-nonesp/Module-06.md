@@ -28,13 +28,13 @@ This module covers provisioning a HDInsight cluster.  Navigate to your resource 
 <hr>
 <br>
 
-### 5. 
+### 5. Select "new" storage
 ![CreateHDI05](images/02-hdi-03.png)
 <br>
 <hr>
 <br>
 
-### 5. 
+### 6. Enter details as depicted
 ![CreateHDI05](images/02-hdi-04.png)
 <br>
 <hr>
@@ -42,25 +42,25 @@ This module covers provisioning a HDInsight cluster.  Navigate to your resource 
 
 
 
-### 5. 
+### 7. Select TLS 1.2 in the networking tab 
 ![CreateHDI05](images/02-hdi-05.png)
 <br>
 <hr>
 <br>
 
-### 6. 
+### 8. Select virtual network and kafka subnet 
 ![CreateHDI06](images/02-hdi-06.png)
 <br>
 <hr>
 <br>
 
-### 7. 
+### 9. Leave default, except have 3 broker/worker nodes
 ![CreateHDI07](images/02-hdi-07.png)
 <br>
 <hr>
 <br>
 
-### 8. 
+### 10. Click create
 ![CreateHDI08](images/02-hdi-08.png)
 <br>
 <hr>
