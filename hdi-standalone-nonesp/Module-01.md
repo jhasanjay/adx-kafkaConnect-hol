@@ -34,3 +34,6 @@ Go to portal.azure.com, login and follow the steps below to create a resource gr
 <br>
 <hr>
 <br>
+
+This concludes the module.<br>
+[Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
