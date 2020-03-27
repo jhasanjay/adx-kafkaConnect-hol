@@ -66,37 +66,37 @@ This module covers provisioning a HDInsight cluster.  Navigate to your resource 
 <hr>
 <br>
 
-### 9. 
+### 11. You should see this icon for HDInsight in your resource group, click on it 
 ![CreateHDI09](images/02-hdi-09.png)
 <br>
 <hr>
 <br>
 
-### 10. 
+### 12. In this UI, click on cluster dashboards
 ![CreateHDI10](images/02-hdi-10.png)
 <br>
 <hr>
 <br>
 
-### 11. 
+### 13. Click on Ambari home; Ambari is the cluster manager
 ![CreateHDI11](images/02-hdi-11.png)
 <br>
 <hr>
 <br>
 
-### 12. 
+### 14. Enter credentials
 ![CreateHDI12](images/02-hdi-12.png)
 <br>
 <hr>
 <br>
 
-### 13. 
+### 15. You should see the cluster healthy
 ![CreateHDI13](images/02-hdi-13.png)
 <br>
 <hr>
 <br>
 
-### 14. 
+### 16. Click on hosts
 ![CreateHDI14](images/02-hdi-14.png)
 <br>
 <hr>
