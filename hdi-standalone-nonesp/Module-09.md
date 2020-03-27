@@ -34,6 +34,26 @@ apt-get install -y tree
  mkdir -p opt/kafka-connect-kusto
 ```
 
+```
+ tree opt
+```
+
+![CreateHDI01](images/06-kck-02.png)
+<br>
+<hr>
+<br>
+
+### 4. Change to the directory created and download the jar
+
+```
+cd opt/kafka-connect-kusto
+```
+
+```
+wget "https://github.com/Azure/kafka-sink-azure-kusto/releases/download/v0.3.2/kafka-sink-azure-kusto-0.3.2-jar-with-dependencies.jar"
+```
+
+
 ![CreateHDI01](images/06-kck-02.png)
 <br>
 <hr>
