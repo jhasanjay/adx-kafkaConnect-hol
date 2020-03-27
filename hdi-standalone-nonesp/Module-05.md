@@ -23,7 +23,7 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 ### 4. Search for "Storage Account"
-![CreateStorage03](images/05-adx-3.png)
+![CreateStorage03](images/05-adx-03.png)
 <br>
 <hr>
 <br>
