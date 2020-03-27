@@ -8,8 +8,9 @@ This module covers downloading and configuring KafkaConnect for ADX and launchin
 We will be setting some configuration for our KafkaConnect sink to Kusto<br>
 Here are some notes about it, it is helpful to understand these as some of them are knobs for performance tuning<br>
 
+```
 **name**<br>
-Unique name for the connector. Attempting to register again with the same name will fail<br><br>
+Unique name for the connector. Attempting to register again with the same name will fail<br>
 
 **connector.class**<br>
 The Java class for the connector
@@ -31,7 +32,7 @@ Number of records written to store before invoking file commits<br>
 
 **flush.interval.ms**<br>
 Interval at which to try committing offsets for tasks<br><br>
-
+``
 
 ### 1. SSH to the edge node ands switch to root
 
