@@ -237,7 +237,7 @@ a) Revisit the portal, your ADX cluster instance for the ingestion URI
 <hr>
 <br>
 
-b) Revisit the details of your service principal from here
+b) Revisit the details of your service principal from [here](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/blob/master/hdi-standalone-nonesp/Module-04.md#5-a-service-principal-namespn-gets-created--make-a-note-of-the-applicationclient-id-and-tenant-id-we-will-need-this-in-the-kafkaconnect-module) and [here](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/blob/master/hdi-standalone-nonesp/Module-04.md#9-make-a-note-of-the-secret-it-wont-be-available-after--we-will-need-this-in-the-kafkaconnect-module)
 
 We will need-
 - Tenant ID
