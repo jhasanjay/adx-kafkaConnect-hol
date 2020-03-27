@@ -4,20 +4,20 @@
 
 This module covers provisioning an Azure Data Explorer, creating database objects required for the lab and granting permissions.  Navigate to your resource group, and click on "Add" and follow the steps below.<br>
 
-### 1. Search for "Storage Account"
+### 1. Search for "Azure Data Explorer"
 ![CreateStorage01](images/05-adx-01.png)
 <br>
 <hr>
 <br>
 
-### 2. Search for "Storage Account"
+### 2. Click create
 ![CreateStorage02](images/05-adx-02.png)
 <br>
 <hr>
 <br>
 
-### 3. Search for "Storage Account"
-![CreateStorage03](images/05-adx-03.png)
+### 3. Enter details
+![CreateStorage03](images/05-adx-03a.png)
 <br>
 <hr>
 <br>
