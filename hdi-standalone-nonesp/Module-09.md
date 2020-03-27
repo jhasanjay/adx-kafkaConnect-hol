@@ -122,7 +122,7 @@ cp kafka-connect-kusto-sink-0.3.2-uber.jar /usr/share/java/
 ls -al /usr/share/java/ | grep kusto
 ```
 
-![CreateHDI01](images/06-kck-7.png)
+![CreateHDI01](images/06-kck-07.png)
 <br>
 <hr>
 <br>
