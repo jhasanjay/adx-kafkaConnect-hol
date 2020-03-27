@@ -131,18 +131,27 @@ E.g. for the below, its 10.15.1.12:9092,10.15.1.15:9092,10.15.1.18:9092
 
 ### 21. Paste this after the very last line for kafka-env
 
+```
+# Configure Kafka to advertise IP addresses instead of FQDN
+IP_ADDRESS=$(hostname -i)
+echo advertised.listeners=$IP_ADDRESS
+sed -i.bak -e '/advertised/{/advertised@/!d;}' /usr/hdp/current/kafka-broker/conf/server.properties
+echo "advertised.listeners=PLAINTEXT://$IP_ADDRESS:9092" >> /usr/hdp/current/kafka-broker/conf/server.properties
+
+```
+
 ![CreateHDI19](images/02-hdi-19.png)
 <br>
 <hr>
 <br>
 
-### 20. 
+### 22. Click on save
 ![CreateHDI20](images/02-hdi-20.png)
 <br>
 <hr>
 <br>
 
-### 21. 
+### 23. Click on ok
 ![CreateHDI21](images/02-hdi-21.png)
 <br>
 <hr>
