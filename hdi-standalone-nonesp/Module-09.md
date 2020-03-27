@@ -7,6 +7,7 @@ This module covers downloading and configuring KafkaConnect for ADX and launchin
 
 We will be setting some configuration for our KafkaConnect sink to Kusto<br>
 Here are some notes about it, it is helpful to understand these as some of them are knobs for performance tuning<br>
+This labe does not cover performance tuning<br>
 
 
 **name**<br>
