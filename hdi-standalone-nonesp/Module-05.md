@@ -92,7 +92,7 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 
-### 15. Click on the database "crimes_db"; Then enter the table DDL below and click on the run button.
+### 15. Click on the database "crimes_db"; Then paste the table DDL below in the Web UI, and click on the run button.
 
 ```
 // Create table
@@ -105,7 +105,14 @@ This module covers provisioning an Azure Data Explorer, creating database object
 <br>
 
 
-### 16. Now lets create a table mapping
+### 16. Now lets create a table mapping; Paste the table mapping below in the Web UI on a separate line, and click on the run button.
+
+```
+
+// Create mapping
+.create table ['crimes_curated_kafka'] ingestion json mapping 'crimes_curated_kafka_mapping' '[{"column":"case_id","path":"$.case_id","datatype":"int"}, {"column":"case_nbr","path":"$.case_nbr","datatype":"string"}, {"column":"case_dt_tm","path":"$.case_dt_tm","datatype":"datetime"}, {"column":"block","path":"$.block","datatype":"string"}, {"column":"iucr","path":"$.iucr","datatype":"string"}, {"column":"primary_type","path":"$.primary_type","datatype":"string"}, {"column":"description","path":"$.description","datatype":"string"}, {"column":"location_description","path":"$.location_description","datatype":"string"}, {"column":"arrest_made","path":"$.arrest_made","datatype":"bool"}, {"column":"was_domestic","path":"$.was_domestic","datatype":"bool"}, {"column":"beat","path":"$.beat","datatype":"string"}, {"column":"district","path":"$.district","datatype":"string"}, {"column":"ward","path":"$.ward","datatype":"int"}, {"column":"community_area","path":"$.community_area","datatype":"int"}, {"column":"fbi_code","path":"$.fbi_code","datatype":"string"}, {"column":"x_coordinate","path":"$.x_coordinate","datatype":"int"}, {"column":"y_coordinate","path":"$.y_coordinate","datatype":"int"}, {"column":"case_year","path":"$.case_year","datatype":"int"}, {"column":"updated_dt","path":"$.updated_dt","datatype":"datetime"}, {"column":"latitude","path":"$.latitude","datatype":"real"}, {"column":"longitude","path":"$.longitude","datatype":"real"}, {"column":"location_coords","path":"$.location_coords","datatype":"string"}, {"column":"case_timestamp","path":"$.case_timestamp","datatype":"datetime"}, {"column":"case_month","path":"$.case_month","datatype":"int"}, {"column":"case_day_of_month","path":"$.case_day_of_month","datatype":"int"}, {"column":"case_hour","path":"$.case_hour","datatype":"int"}, {"column":"case_day_of_week_nbr","path":"$.case_day_of_week_nbr","datatype":"int"}, {"column":"case_day_of_week_name","path":"$.case_day_of_week_name","datatype":"string"}]'
+```
+
 ![CreateStorage16](images/05-adx-16.png)
 <br>
 <hr>
@@ -113,6 +120,15 @@ This module covers provisioning an Azure Data Explorer, creating database object
 
 
 ### 17. Finally, we will grant the SPN from module 4, the ingestor role.  For this, we will need the Application ID captured in [module 4](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/blob/master/hdi-standalone-nonesp/Module-04.md#5-a-service-principal-namespn-gets-created--make-a-note-of-the-applicationclient-id-and-tenant-id-we-will-need-this-in-the-kafkaconnect-module)
+
+Enter the command below, replacing my AAD SPN with yours..
+
+```
+// Grant the SPN, "ingestor" role at a database level
+.add database crimes_db ingestors ('aadapp=<yourSPNAppIDFromModule4>') 'AAD App'
+
+```
+
 ![CreateStorage17](images/05-adx-17.png)
 <br>
 <hr>
