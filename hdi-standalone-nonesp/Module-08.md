@@ -16,23 +16,21 @@ Switch to your SSH terminal, where you logged into the edge node.
 <hr>
 <br>
 
-### 2. Create a variable and populate it with the cluster name
+
+### 2. Install jq to process json easily
+
+![CreateHDI03](images/02-hdi-44.png)
+<br>
+<hr>
+<br>
+
+### 3. Create a variable and populate it with the cluster name
 ```
 read -p "Enter the Kafka on HDInsight cluster name: " CLUSTERNAME
 ```
 Enter the cluster name at the prompt, and then echo the variable to ensure it has the right value.
 
-
-
-
-### 2. Enter details
 ![CreateHDI02](images/02-hdi-43.png)
-<br>
-<hr>
-<br>
-
-### 3. Agree to terms and click on purchase
-![CreateHDI03](images/02-hdi-44.png)
 <br>
 <hr>
 <br>
