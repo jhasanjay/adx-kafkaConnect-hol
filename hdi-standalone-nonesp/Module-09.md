@@ -8,7 +8,7 @@ This module covers downloading and configuring KafkaConnect for ADX and launchin
 We will be setting some configuration for our KafkaConnect sink to Kusto<br>
 Here are some notes about it, it is helpful to understand these as some of them are knobs for performance tuning<br>
 
-```
+
 **name**<br>
 Unique name for the connector. Attempting to register again with the same name will fail<br>
 
@@ -32,7 +32,7 @@ Number of records written to store before invoking file commits<br>
 
 **flush.interval.ms**<br>
 Interval at which to try committing offsets for tasks<br><br>
-``
+
 
 ### 1. SSH to the edge node ands switch to root
 
@@ -159,9 +159,40 @@ ls -al /usr/share/java/ | grep kusto
 ### 8. Edit the standalone properties file
 
 ```
-/usr/hdp/current/kafka-broker/config/
+vi /usr/hdp/current/kafka-broker/config/connect-kusto-sink.properties
 ```
 
+Paste the following and replace with your details.
+
+```
+name=KustoSinkConnector 
+connector.class=com.microsoft.azure.kusto.kafka.connect.sink.KustoSinkConnector
+kusto.sink.flush_interval_ms=300000
+tasks.max=2
+topics=crimes_topic
+kusto.tables.topics_mapping=[{'topic': 'crimes_topic','db': 'crimes_db', 'table': 'crimes_curated_kafka','format': 'json', 'mapping':'crimes_curated_kafka_mapping'}]
+kusto.auth.authority=<yourAADTenantID>
+kusto.url=<yourADXClusterIngestURI>
+kusto.auth.appid=<yourAADSPNApplicationID>
+kusto.auth.appkey=<yourAADSPNSecret>
+kusto.sink.tempdir=/var/tmp/
+kusto.sink.flush_size=1000
+value.converter=org.apache.kafka.connect.storage.StringConverter
+key.converter=org.apache.kafka.connect.storage.StringConverter
+```
+
+**Knobs for performance tuning are:**
+- kusto.sink.flush_interval_ms
+- tasks.max
+- kusto.sink.flush_size
+- Proper sizing of your ADX cluster
+- And you need to set the streaming ingestion policy on (we did this already)
+
+Here is a sample:
+![CreateHDI01](images/06-kck-17.png)
+<br>
+<hr>
+<br>
 
 
 
