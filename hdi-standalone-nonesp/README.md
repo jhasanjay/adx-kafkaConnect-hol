@@ -65,6 +65,18 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 [Module 1.  Provision a resource group](Module-01.md) <br>
 [Module 2.  Provision a virtual network and subnets](Module-02.md) <br>
 [Module 3.  Provision a storage account v2 and containers](Module-03.md) <br>
+[Module 4.  Create an Azure Active Directory Service Principal and secret](Module-04.md) <br>
+[Module 5.  Provision an Azure Data Explorer, create database objects and permissions ](Module-05.md) <br>
+[Module 6.  Provision a HDInsight Kafka cluster](Module-06.md) <br>
+[Module 7.  Provision an edge node on the HDInsight Kafka cluster](Module-07.md) <br>
+[Module 8.  Download and configure KafkaConnect on the edge node, launch the service](Module-08.md) <br>
+[Module 9.  Provision a Databricks cluster](Module-09.md) <br>
+[Module 10.  Import the lab's Spark code into your Databricks workspace and review](Module-10.md) <br>
+[Module 11.  Mount blob storage onto your Databricks workspace](Module-11.md) <br>
+[Module 12.  Download and curate the Chicago crimes dataset](Module-12.md) <br>
+[Module 13.  Stream the curated crimes dataset to Kafka](Module-13.md) <br>
+[Module 14.  Validate the publishing with Kafka console consumer in HDInsight](Module-14.md) <br>
+[Module 15.  Validate the ingestion in the ADX table](Module-14.md) <br>
 
 
 
