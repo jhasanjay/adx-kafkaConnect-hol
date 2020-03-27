@@ -102,32 +102,36 @@ This module covers provisioning a HDInsight cluster.  Navigate to your resource 
 <hr>
 <br>
 
-### 15. 
+### 17. Make a note of broker IPs with port number of 9092
+E.g. for the below, its 10.15.1.12:9092,10.15.1.15:9092,10.15.1.18:9092
+
 ![CreateHDI15](images/02-hdi-15.png)
 <br>
 <hr>
 <br>
 
-### 16. 
+### 18. Click on Kafka
 ![CreateHDI16](images/02-hdi-16.png)
 <br>
 <hr>
 <br>
 
-### 17. 
+### 19. Click on configs
 ![CreateHDI17](images/02-hdi-17.png)
 <br>
 <hr>
 <br>
 
-### 18. 
-![CreateHDI018](images/02-hdi-01.png)
+### 20. In the search, type "Kafka-env"
+
+![CreateHDI018](images/02-hdi-18.png)
 <br>
 <hr>
 <br>
 
-### 19. 
-![CreateHDI19](images/02-hdi-01.png)
+### 21. Paste this after the very last line for kafka-env
+
+![CreateHDI19](images/02-hdi-19.png)
 <br>
 <hr>
 <br>
