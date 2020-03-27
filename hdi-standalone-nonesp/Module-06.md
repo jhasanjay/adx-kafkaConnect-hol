@@ -157,25 +157,25 @@ echo "advertised.listeners=PLAINTEXT://$IP_ADDRESS:9092" >> /usr/hdp/current/kaf
 <hr>
 <br>
 
-### . 
+### 24. Lets go back to configs and search for "listener"
 ![CreateHDI22](images/02-hdi-22.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 25. Replace the value there with ```PLAINTEXT://0.0.0.0:9092.```
 ![CreateHDI23](images/02-hdi-23.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 26. Click on save
 ![CreateHDI24](images/02-hdi-24.png)
 <br>
 <hr>
 <br>
 
-### . 
+### 27. 
 ![CreateHDI25](images/02-hdi-25.png)
 <br>
 <hr>
