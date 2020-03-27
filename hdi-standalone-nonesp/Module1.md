@@ -40,3 +40,13 @@ Go to portal.azure.com, login and follow the steps below to create a resource gr
 <br>
 <hr>
 <br>
+
+## 2.  Provision a virtual network with subnets
+
+Navigate to your resource group<br>
+
+### 1.1. Click on resource group
+![Createvnet](images/01-vnet-01.png)
+<br>
+<hr>
+<br>
