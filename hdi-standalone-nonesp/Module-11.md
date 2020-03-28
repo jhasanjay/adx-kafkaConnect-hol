@@ -2,7 +2,7 @@
 
 # About
 
-This module covers creatinbg a Databricks cluster and pinning it.  We will use Spark Structured Streaming to stream data to Kafka in a subsequent module.<br>
+This module covers creating a Databricks cluster and pinning it.  We will use Spark Structured Streaming to stream data to Kafka in a subsequent module.<br>
 
 Navigate to your Databricks workspace.
 
