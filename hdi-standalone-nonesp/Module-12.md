@@ -44,27 +44,27 @@ kafka-adx-hol.dbc
 <br>
 
 
-### 6. Paste the URL and click on import
+### 6. Three directories
 ![CreateStorage06](images/04-databricks-17.png)
 <br>
 <hr>
 <br>
 
 
-### 7. Paste the URL and click on import
+### 7. The first one covers mounting blob storage
 ![CreateStorage06](images/04-databricks-18.png)
 <br>
 <hr>
 <br>
 
 
-### 8. Paste the URL and click on import
+### 8. The second one downloads Chicago crimes dataset and curates it, does some cursory visualization
 ![CreateStorage06](images/04-databricks-19.png)
 <br>
 <hr>
 <br>
 
-### 9. Paste the URL and click on import
+### 9. The third one streams the curated crimes to Kafka
 ![CreateStorage06](images/04-databricks-20.png)
 <br>
 <hr>
