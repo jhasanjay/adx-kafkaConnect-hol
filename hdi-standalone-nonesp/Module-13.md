@@ -2,7 +2,7 @@
 
 # About
 
-Databricks has a disaggregated compute and storage model.  We will leverage the blob storage we created as the storage layer.<br  
+Databricks has a disaggregated compute and storage model.  We will leverage the blob storage we created as the storage layer.<br>  
 This module covers mounting blob storage to the Databricks cluster.<br>
 
 
