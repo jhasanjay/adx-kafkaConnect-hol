@@ -13,6 +13,8 @@ This module covers -
 8. Creating some basic visualizations - we will repeat this in Azure Data Explorer
 <br>
 
+Screenshots of code have been deliberately included for the benefit of those who just want to read the lab.
+
 ## Download the Chicago crimes dataset and upload to blob storage staging zone
 
 ### 1.  Navigate to the curation notebook and click on "run all"
