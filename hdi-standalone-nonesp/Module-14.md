@@ -12,6 +12,7 @@ This module covers -
 7. Creating an external table on the curated dataset
 8. Creating some basic visualizations - we will repeat this in Azure Data Explorer
 <br>
+There are a lot of screenshots, for those who may not do the lab but just want to get an idea what is in the code.
 
 ## Download the Chicago crimes dataset and upload to blob storage staging zone
 
