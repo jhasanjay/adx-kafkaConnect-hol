@@ -7,6 +7,8 @@ The focus of this hands-on-lab is to demonstrate how to configure KafkaConnect s
 We will download the Chicago crimes public dataset for this exercise<br>
 https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
+Note: This lab does not cover performance tuning.
+
 ## 2. Pre-requisites
 - An Azure subscription with about $200 in funds
 - About 8-10 hours of time
