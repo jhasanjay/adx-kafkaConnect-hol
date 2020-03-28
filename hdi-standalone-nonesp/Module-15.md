@@ -5,20 +5,44 @@
 This module covers streaming curated Chicago crimes to Kafka<br>
 
 
-### 1. Define credentials
-![CreateStorage01](images/04-databricks-21.png)
+### 1. 
+![CreateStorage01](images/04-databricks-46.png)
 <br>
 <hr>
 <br>
 
-### 2. Click on 'Run All'
-![CreateStorage02](images/04-databricks-22.png)
+### 2. 
+![CreateStorage02](images/04-databricks-47.png)
 <br>
 <hr>
 <br>
 
-### 3.Navigate to the cell as shown below and if everything has been configured and executed correctly, you should see the directory listing
-![CreateStorage03](images/04-databricks-23.png)
+### 3.
+![CreateStorage03](images/04-databricks-48.png)
+<br>
+<hr>
+<br>
+
+### 4.
+![CreateStorage03](images/04-databricks-49.png)
+<br>
+<hr>
+<br>
+
+### 5.
+![CreateStorage03](images/04-databricks-50.png)
+<br>
+<hr>
+<br>
+
+### 6.
+![CreateStorage03](images/04-databricks-51.png)
+<br>
+<hr>
+<br>
+
+### 7.
+![CreateStorage03](images/04-databricks-52.png)
 <br>
 <hr>
 <br>
