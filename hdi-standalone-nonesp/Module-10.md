@@ -4,7 +4,7 @@
 
 This module covers provisioning an Azure Databricks cluster<br>
 
-Navigate to portal.azure.com on your browser, to the resource grouop and follow the steps below:<br>
+Navigate to portal.azure.com on your browser, to the resource group and follow the steps below:<br>
 
 ### 1. Type Azure Databricks and select
 ![CreateStorage01](images/04-databricks-01.png)
