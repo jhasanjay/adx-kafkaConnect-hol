@@ -5,11 +5,10 @@
 The following are instructional hands on labs for Kafka integration with Azure Data Explorer through our KafkaConnect sink.
 
 ## Labs
-**Azure HDInsight Kafka PaaS**<br>
+### Azure HDInsight Kafka PaaS
 #### [1.  Standalone KafkaConnect on Azure HDInsight - edge node](hdi-standalone-nonesp/README.md)
 #### 2.  Distributed KafkaConnect on Azure HDInsight - edge node
-<br>
-**Azure Confluent Cloud Kafka PaaS**<br>
+### Azure Confluent Cloud Kafka Paa
 #### 3.  Distributed KafkaConnect on Azure Kubernetes Service
 #### 4.  Distributed KafkaConnect on Azure Kubernetes Service
 
