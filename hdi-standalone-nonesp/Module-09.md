@@ -34,6 +34,7 @@ Number of records written to store before invoking file commits<br>
 **flush.interval.ms**<br>
 Interval at which to try committing offsets for tasks<br><br>
 
+**Reference**: [Azure docs for the KafkaConnect ADX sink](https://docs.microsoft.com/en-us/azure/data-explorer/ingest-data-kafka)
 
 ### 1. SSH to the edge node ands switch to root
 
