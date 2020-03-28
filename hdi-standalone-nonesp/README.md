@@ -71,16 +71,17 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 [Module 7.  Provision an edge node on the HDInsight Kafka cluster](Module-07.md) <br>
 [Module 8.  Create a Kafka topic on the Kafka cluster](Module-08.md) <br>
 [Module 9.  Download and configure KafkaConnect on the edge node, launch the service](Module-09.md) <br>
-[Module 10.  Provision a Databricks cluster](Module-10.md) <br>
-[Module 11.  Import the lab's Spark code into your Databricks workspace and review](Module-11.md) <br>
-[Module 12.  Mount blob storage onto your Databricks workspace](Module-12.md) <br>
-[Module 13.  Download and curate the Chicago crimes dataset](Module-13.md) <br>
-[Module 14.  Stream the curated crimes dataset to Kafka](Module-14.md) <br>
-[Module 15.  Validate the publishing with Kafka console consumer in HDInsight](Module-15.md) <br>
-[Module 16.  Validate the ingestion in the ADX table](Module-16.md) <br>
-[Module 17.  Run some analytics in ADX](Module-17.md) <br>
-[Module 18.  Visualize with ADX dashboard](Module-18.md) <br>
+[Module 10.  Provision a Databricks workspace](Module-10.md) <br>
+[Module 11.  Create a Databricks cluster](Module-11.md) <br>
+[Module 12.  Import the lab's Spark code into your Databricks workspace and review](Module-12.md) <br>
+[Module 13.  Mount blob storage onto your Databricks workspace](Module-13.md) <br>
+[Module 14.  Download and curate the Chicago crimes dataset](Module-14.md) <br>
+[Module 15.  Stream the curated crimes dataset to Kafka](Module-15.md) <br>
+[Module 16.  Validate the publishing with Kafka console consumer in HDInsight](Module-16.md) <br>
+[Module 17.  Validate the ingestion in the ADX table](Module-17.md) <br>
+[Module 18.  Run some analytics in ADX](Module-18.md) <br>
+[Module 19.  Visualize with ADX dashboard](Module-19.md) <br>
 
 ### Got feedback?
-I work in the Azure Data Explorer product team and appreciate feedback. If you have ideas on how we can improve this lab, and what else we can add to the lab series, connect with me (Anagha Khanolkar, Microsoft) on LinkedIn and message me.
+If you have ideas on how we can improve this lab, and what else we can add to the lab series, connect with me (Anagha Khanolkar, Microsoft) on LinkedIn and message me.
 
