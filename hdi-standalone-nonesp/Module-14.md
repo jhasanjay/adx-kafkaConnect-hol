@@ -2,27 +2,158 @@
 
 # About
 
-Databricks has a disaggregated compute and storage model.  We will leverage the blob storage we created as the storage layer.<br  
-This module covers mounting blob storage to the Databricks cluster.<br>
+This module covers -
+1. Downloading the Chicago crimes data to the driver node local temp directory
+2. Persisting the downloaded data to the "staging" information zone (blob storage container)
+3. Reading-parsing the raw data and persisting it to Parquet in the "raw" information zone (blob storage container)
+4. Creating an external table definition on the raw data
+5. Exploring the raw dataset with Spark SQL
+6. Curating the dataset - get rid of columns we dont want, augment with temporal attributes and such
+7. Creating an external table on the curated dataset
+8. Creating some basic visualizations - we will repeat this in Azure Data Explorer
+<br>
 
+## Download the Chicago crimes dataset and upload to blob storage staging zone
 
-### 1. Define credentials
-![CreateStorage01](images/04-databricks-21.png)
+### 
+![CreateStorage01](images/04-databricks-24.png)
 <br>
 <hr>
 <br>
 
-### 2. Click on 'Run All'
-![CreateStorage02](images/04-databricks-22.png)
+### 
+![CreateStorage02](images/04-databricks-25.png)
 <br>
 <hr>
 <br>
 
-### 3.Navigate to the cell as shown below and if everything has been configured and executed correctly, you should see the directory listing
-![CreateStorage03](images/04-databricks-23.png)
+### 
+![CreateStorage02](images/04-databricks-26.png)
 <br>
 <hr>
 <br>
+
+### 
+![CreateStorage02](images/04-databricks-27.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-28.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-29.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-30.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-31.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-32.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-33.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-34.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-35.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-36.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-37.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-38.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-39.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-40.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-41.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-42.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-43.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-44.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-45.png)
+<br>
+<hr>
+<br>
+
+### 
+![CreateStorage02](images/04-databricks-25.png)
+<br>
+<hr>
+<br>
+
+
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
