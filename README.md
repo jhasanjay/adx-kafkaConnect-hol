@@ -7,7 +7,7 @@ The following are instructional hands on labs for Kafka integration with Azure D
 ## Labs
 ### Azure HDInsight Kafka PaaS
 [Standalone KafkaConnect on Azure HDInsight - edge node](hdi-standalone-nonesp/README.md)<br>
-Distributed KafkaConnect on Azure HDInsight - edge node<br>
+Distributed KafkaConnect on Azure HDInsight - edge nodes<br>
 
 ### Azure Confluent Cloud Kafka PaaS
 Standalone KafkaConnect on Azure Kubernetes Service<br>
