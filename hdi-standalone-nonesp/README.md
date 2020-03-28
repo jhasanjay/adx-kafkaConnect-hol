@@ -51,7 +51,7 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 17. Downloading the Chicago crimes dataset to the raw information zone ("raw" container)
 18. Curating the dataset (augmenting with temporal attributes and such) and persisting to the curated information zone ("curated" container)
 19. Basic visualization in Spark (we will repeat this in Azure Data Explorer dashboard as well)
-20. Stream read the Chicago crimes dataset from the curated information zone, and publish it to Kafka
+20. Read the Chicago crimes dataset from the curated information zone, and publish it to Kafka
 
 ### Azure Data Explorer:
 21. Validate receipt of data from Kafka
