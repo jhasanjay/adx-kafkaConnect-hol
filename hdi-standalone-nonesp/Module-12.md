@@ -2,35 +2,42 @@
 
 # About
 
-This module covers importing the Spark source code from git, and we will also take a quick look at the notebooks.<br>
+This module covers importing the Spark source code from git, and a quick review of the notebooks.<br>
 
 
-### 1. Type Azure Databricks and select
+### 1. Click on workspace and then on shared, then your name, and finally the down arrow
 ![CreateStorage01](images/04-databricks-12.png)
 <br>
 <hr>
 <br>
 
-### 2. Enter details as described below
+### 2. Click on import
 ![CreateStorage02](images/04-databricks-13.png)
 <br>
 <hr>
 <br>
 
-### 3. Enter networking details as described below, click review and create
+### 3.Click on URL
 ![CreateStorage03](images/04-databricks-14.png)
 <br>
 <hr>
 <br>
 
 
-### 4. You should see a Databricks workspace created
+### 4. Get the link to the Databricks code archive for the lab, and copy the link to clipboard
+
+Location:<br>
+https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp/dbc<br>
+
+Name:<br>
+kafka-adx-hol.dbc
+
 ![CreateStorage05](images/04-databricks-15.png)
 <br>
 <hr>
 <br>
 
-### 5. Click on the Databricks workspace icon
+### 5. Paste the URL and click on import
 ![CreateStorage06](images/04-databricks-16.png)
 <br>
 <hr>
