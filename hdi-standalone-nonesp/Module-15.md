@@ -2,7 +2,7 @@
 
 # About
 
-This module covers streaming curated Chicago crimes to Kafka<br>
+This module covers publishing curated Chicago crimes to Kafka<br>
 
 
 ### 1. 
