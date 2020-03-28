@@ -2,50 +2,27 @@
 
 # About
 
-This module covers publishing curated Chicago crimes to Kafka<br>
+This module covers validating that the Kafka topic indeed has events published to it from the previous module.  Switch to your Kafka edge node, we will run the Kafka console consumer to validate.<br>
 
 
-### 1. Update the topic name and broker list with your details
-![CreateStorage01](images/04-databricks-46.png)
+### 1. Run the Kafka console consumer against the topic and stop right away
+
+```
+/usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --bootstrap-server $KAFKABROKERS --topic "iot_telemetry_in" --from-beginning
+```
+
+![CreateStorage01](images/04-databricks-53.png)
 <br>
 <hr>
 <br>
 
-### 2. Run the notebook
-![CreateStorage02](images/04-databricks-47.png)
+### 2. You should see some events on the screen
+
+![CreateStorage02](images/04-databricks-54.png)
 <br>
 <hr>
 <br>
 
-### 3.  In 2.0.2, we are creating a dataframe containing the curated data
-![CreateStorage03](images/04-databricks-48.png)
-<br>
-<hr>
-<br>
-
-### 4.  In 2.0.3, we are formatting the data to a Kafka compatible format in another dataframe
-![CreateStorage03](images/04-databricks-49.png)
-<br>
-<hr>
-<br>
-
-### 5.  Here, we are just exploring the schema
-![CreateStorage03](images/04-databricks-50.png)
-<br>
-<hr>
-<br>
-
-### 6.  A quick count in Spark SQL
-![CreateStorage03](images/04-databricks-51.png)
-<br>
-<hr>
-<br>
-
-### 7.  Finally, publish the dataframe from #4, to Kafka
-![CreateStorage03](images/04-databricks-52.png)
-<br>
-<hr>
-<br>
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
