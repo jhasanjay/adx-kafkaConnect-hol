@@ -6,9 +6,10 @@ This module covers validating that the Kafka topic indeed has events published t
 
 
 ### 1. Run the Kafka console consumer against the topic and stop right away
+Be sure to update the broker list with your brokers' IP addresses
 
 ```
-/usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --bootstrap-server $KAFKABROKERS --topic "iot_telemetry_in" --from-beginning
+/usr/hdp/current/kafka-broker/bin/kafka-console-consumer.sh --bootstrap-server 10.15.1.18:9092,10.15.1.15:9092,10.15.1.12:9092 --topic "crimes_topic" --from-beginning
 ```
 
 ![CreateStorage01](images/04-databricks-53.png)
