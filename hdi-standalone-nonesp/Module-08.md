@@ -97,6 +97,11 @@ echo $KAFKAZKHOSTS
 
 Here "connect-KustoSinkConnector" is the consumer group created by the Kafka connector.  This will be useful when you move to the module where you provision the connectors.
 
+### 10. describe topics
+
+```
+/usr/hdp/current/kafka-broker/bin/kafka-topics.sh --zookeeper $KAFKAZKHOSTS --describe --topic crimes-topic
+```
 
 <br>
 This concludes the module.<br>
