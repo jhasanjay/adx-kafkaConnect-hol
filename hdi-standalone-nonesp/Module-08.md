@@ -19,6 +19,11 @@ Switch to your SSH terminal, where you logged into the edge node.
 
 ### 2. Install jq to process json easily
 
+```
+sudo su -
+apt -y install jq
+```
+
 ![CreateHDI03](images/02-hdi-44.png)
 <br>
 <hr>
@@ -44,7 +49,7 @@ export KAFKAZKHOSTS=`curl -sS -u admin -G https://$CLUSTERNAME.azurehdinsight.ne
 Validate it:
 
 ```
-export KAFKAZKHOSTS
+echo $KAFKAZKHOSTS
 ```
 
 ![CreateHDI04](images/02-hdi-45.png)
