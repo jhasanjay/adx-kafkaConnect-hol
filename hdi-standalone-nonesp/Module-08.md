@@ -58,17 +58,29 @@ echo $KAFKAZKHOSTS
 <br>
 
 ### 5. Create a Kafka topic called crimes_topic
+```
+/usr/hdp/current/kafka-broker/bin/kafka-topics.sh --create --replication-factor 3 --partitions 6 --topic crimes-topic --zookeeper $KAFKAZKHOSTS 
+```
+
 ![CreateHDI05](images/02-hdi-46.png)
 <br>
 <hr>
 <br>
 
 ### 6. List the topics to ensure it was created
+```
+/usr/hdp/current/kafka-broker/bin/kafka-topics.sh --list --zookeeper $KAFKAZKHOSTS 
+```
+
 ![CreateHDI05](images/02-hdi-47.png)
 <br>
 <hr>
 <br>
 
+### 7. Set a retention on the topic to expire in 10 minutes.
+```
+/usr/hdp/current/kafka-broker/bin/kafka-configs.sh --zookeeper $KAFKAZKHOSTS --alter --entity-type topics --entity-name crimes-topic --add-config retention.ms=600000
+```
 
 This concludes the module.<br>
 [Return to the menu](https://github.com/anagha-microsoft/adx-kafkaConnect-hol/tree/master/hdi-standalone-nonesp#lets-get-started)
