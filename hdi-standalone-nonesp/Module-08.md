@@ -82,12 +82,12 @@ echo $KAFKAZKHOSTS
 /usr/hdp/current/kafka-broker/bin/kafka-configs.sh --zookeeper $KAFKAZKHOSTS --alter --entity-type topics --entity-name crimes-topic --add-config retention.ms=600000
 ```
 
-### 8. Should you ever need to delete a topic
+### 8. Should you ever need to delete a topic - informational
 ```
 /usr/hdp/current/kafka-broker/bin/kafka-topics.sh --delete --topic crimes-topic --zookeeper $KAFKAZKHOSTS
 ```
 
-### 9. List consumer groups
+### 9. List consumer groups - informational
 ```
 /usr/hdp/current/kafka-broker/bin/kafka-consumer-groups.sh  --list --bootstrap-server 10.15.1.4:9092,10.15.1.8:9092,10.15.1.5:9092
 
@@ -97,7 +97,7 @@ echo $KAFKAZKHOSTS
 
 Here "connect-KustoSinkConnector" is the consumer group created by the Kafka connector.  This will be useful when you move to the module where you provision the connectors.
 
-### 10. describe topics
+### 10. Describe a topic - informational
 
 ```
 /usr/hdp/current/kafka-broker/bin/kafka-topics.sh --zookeeper $KAFKAZKHOSTS --describe --topic crimes-topic
