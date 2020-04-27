@@ -91,7 +91,7 @@ echo $KAFKAZKHOSTS
 ```
 /usr/hdp/current/kafka-broker/bin/kafka-consumer-groups.sh  --list --bootstrap-server 10.15.1.4:9092,10.15.1.8:9092,10.15.1.5:9092
 
-/usr/hdp/current/kafka-broker/bin/kafka-consumer-groups.sh --describe --group connect-KustoSinkConnector --bootstrap-server 10.15.1.4:9092,10.15.1.8:9092,10.15.1.5:9092
+/usr/hdp/current/kafka-broker/bin/kafka-consumer-groups.sh --describe --group connect-KustoSinkConnectorCrimes --bootstrap-server 10.15.1.4:9092,10.15.1.8:9092,10.15.1.5:9092
 
 ```
 
