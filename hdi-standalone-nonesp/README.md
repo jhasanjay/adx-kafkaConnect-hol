@@ -78,7 +78,7 @@ https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 [Module 12.  Import the lab's Spark code into your Databricks workspace and review](Module-12.md) <br>
 [Module 13.  Mount blob storage onto your Databricks workspace](Module-13.md) <br>
 [Module 14.  Download and curate the Chicago crimes dataset](Module-14.md) <br>
-[Module 15.  Stream the curated crimes dataset to Kafka](Module-15.md) <br>
+[Module 15.  Publish the curated crimes dataset to Kafka](Module-15.md) <br>
 [Module 16.  Validate the publishing with Kafka console consumer in HDInsight](Module-16.md) <br>
 [Module 17.  Validate the ingestion in the ADX table](Module-17.md) <br>
 [Module 18.  Run some analytics in ADX](Module-18.md) <br>
